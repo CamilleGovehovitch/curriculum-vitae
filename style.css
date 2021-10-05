@@ -51,7 +51,7 @@ body {
 }
 @media (min-width: 1024px) {
   .superContainer .profilContainer {
-    width: 33%;
+    width: 23%;
     padding: 5px;
   }
 }
@@ -78,7 +78,7 @@ body {
 }
 @media (min-width: 1024px) {
   .superContainer .centerContainer {
-    width: 33%;
+    width: 38%;
     padding: 5px;
   }
 }
@@ -113,7 +113,7 @@ body {
 }
 @media (min-width: 1024px) {
   .superContainer .rightContainer {
-    width: 33%;
+    width: 38%;
     padding: 5px;
   }
 }
