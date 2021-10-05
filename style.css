@@ -1,0 +1,127 @@
+body {
+  background-color: #bdbdbd;
+  padding: 10px;
+}
+
+@media (min-width: 1024px) {
+  .superContainer {
+    display: flex;
+  }
+}
+.superContainer .profilContainer .profilePictureContainer {
+  margin-bottom: -25px;
+  display: flex;
+  justify-content: center;
+}
+.superContainer .profilContainer .profilePictureContainer img {
+  width: 140px;
+  height: 100%;
+  border-radius: 50%;
+  border: solid 1px #bdbdbd;
+}
+.superContainer .profilContainer .profileContainer {
+  background-color: #ff6666;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.superContainer .profilContainer .profileContainer h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.superContainer .profilContainer .contact {
+  padding: 20px 30px;
+}
+.superContainer .profilContainer .contact span {
+  font-size: 20px;
+  font-weight: bold;
+}
+.superContainer .profilContainer .contact ul {
+  margin-top: 20px;
+}
+.superContainer .profilContainer .contact ul li a {
+  text-decoration: none;
+  color: black;
+  transition: color ease-in 300ms;
+}
+.superContainer .profilContainer .contact ul li a:hover {
+  color: red;
+}
+@media (min-width: 1024px) {
+  .superContainer .profilContainer {
+    width: 33%;
+    padding: 5px;
+  }
+}
+.superContainer .centerContainer .profilCard {
+  background-color: #fafafa;
+  padding: 10px 0;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.superContainer .centerContainer .profilCard .cardTitle h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.superContainer .centerContainer .profilCard .cardContent {
+  padding: 0 10px;
+}
+.superContainer .centerContainer .profilCard .cardContent ul li {
+  margin-bottom: 10px;
+}
+.superContainer .centerContainer .profilCard .cardContent ul li span {
+  font-weight: bold;
+}
+@media (min-width: 1024px) {
+  .superContainer .centerContainer {
+    width: 33%;
+    padding: 5px;
+  }
+}
+.superContainer .rightContainer .profilCard {
+  background-color: #fafafa;
+  padding: 10px 0;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.superContainer .rightContainer .profilCard .cardTitle h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.superContainer .rightContainer .profilCard .cardContent {
+  padding: 0 10px;
+}
+.superContainer .rightContainer .profilCard .cardContent ul li {
+  margin-bottom: 10px;
+}
+.superContainer .rightContainer .profilCard .cardContent ul li span {
+  font-weight: bold;
+}
+.superContainer .rightContainer .profilCard .cardContent ul li a {
+  text-decoration: none;
+  color: black;
+  transition: color ease-in 300ms;
+}
+.superContainer .rightContainer .profilCard .cardContent ul li a:hover {
+  color: red;
+}
+@media (min-width: 1024px) {
+  .superContainer .rightContainer {
+    width: 33%;
+    padding: 5px;
+  }
+}
+.superContainer .liTitle {
+  font-weight: bold;
+}
+.superContainer .liContent {
+  margin-bottom: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
