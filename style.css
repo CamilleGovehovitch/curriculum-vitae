@@ -20,11 +20,12 @@ body {
   border: solid 1px #bdbdbd;
 }
 .superContainer .profilContainer .profileContainer {
-  background-color: #ff6666;
+  background-color: #990000;
   padding: 25px 10px;
   text-align: center;
   border-radius: 10px;
   margin-bottom: 20px;
+  color: #f0f0f0;
 }
 .superContainer .profilContainer .profileContainer h1 {
   font-size: 18px;
@@ -47,7 +48,7 @@ body {
   transition: color ease-in 300ms;
 }
 .superContainer .profilContainer .contact ul li a:hover {
-  color: #ff6666;
+  color: #660000;
 }
 @media (min-width: 1024px) {
   .superContainer .profilContainer {
@@ -67,7 +68,7 @@ body {
   font-weight: bold;
   margin-bottom: 10px;
   text-align: center;
-  color: #ff6666;
+  color: #660000;
 }
 .superContainer .centerContainer .profilCard .cardContent {
   padding: 0 10px;
@@ -104,7 +105,7 @@ body {
   font-weight: bold;
   margin-bottom: 10px;
   text-align: center;
-  color: #ff6666;
+  color: #660000;
 }
 .superContainer .rightContainer .profilCard .cardContent {
   padding: 0 10px;
@@ -131,7 +132,7 @@ body {
 }
 .superContainer .liTitle {
   font-weight: bold;
-  color: #ff6666;
+  color: #660000;
 }
 .superContainer .liContent {
   margin-bottom: 15px;

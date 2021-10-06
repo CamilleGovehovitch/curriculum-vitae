@@ -1,11 +1,10 @@
 @import "./utils.scss";
 
-$primaryColor: lighten(red, 20);
+$primaryColor: #660000;
 $secondaryColor: rgba(189, 189, 189, 1);
 $thirdColor: rgba(250, 250, 250, 1);
 body {
   background-color: $secondaryColor;
-  // @include test;
   padding: 10px;
 }
 .superContainer {
@@ -13,7 +12,6 @@ body {
     display: flex;
   }
   .profilContainer {
-    // width: 33%;
     .profilePictureContainer {
       margin-bottom: -20px;
       display: flex;
@@ -26,15 +24,17 @@ body {
       }
     }
     .profileContainer {
-      background-color: $primaryColor;
+      background-color: lighten($primaryColor, 10);
       padding: 25px 10px;
       text-align: center;
       border-radius: 10px;
       margin-bottom: 20px;
+      color: lighten($secondaryColor, 20);
       h1 {
         font-size: 18px;
         font-weight: bold;
         margin-bottom: 10px;
+        // color: $secondaryColor;
       }
     }
     .contact {
